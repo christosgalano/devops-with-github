@@ -1,0 +1,11 @@
+name: caller
+
+on:
+  workflow_dispatch:
+
+jobs:
+  hello:
+    uses: ./.github/workflows/hello.yaml  # this is the called workflow
+    with:
+      name: ${{ github.actor }}
+

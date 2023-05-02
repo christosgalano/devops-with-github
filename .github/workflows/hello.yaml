@@ -1,0 +1,17 @@
+name: hello
+
+on:
+  workflow_call:
+    inputs:
+      name:
+        description: 'Who to say hello to'
+        required: true
+        type: string
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: hello
+        run: echo "Hello ${{ inputs.name }} from the called workflow!"
+
