@@ -1,0 +1,12 @@
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily" # only on weekdays
+      time: "23:00"
+      timezone: "Europe/Athens"
+    target-branch: "main"
+    open-pull-requests-limit: 3
+    pull-request-branch-name:
+      separator: "/"

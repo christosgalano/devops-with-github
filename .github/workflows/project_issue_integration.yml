@@ -1,0 +1,16 @@
+name: project-issue-integration
+run-name: ${{ github.workflow }}
+on:
+  issues:
+    types:
+      - opened
+
+jobs:
+  add-issue-to-project:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/add-to-project@v0.4.0
+        with:
+          project-url: https://github.com/users/christosgalano/projects/1
+          github-token: ${{ secrets.PROJECT_PAT }}
+          labeled: content

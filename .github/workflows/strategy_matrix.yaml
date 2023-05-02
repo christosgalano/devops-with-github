@@ -1,0 +1,27 @@
+name: strategy-matrix
+on:
+  workflow_dispatch:
+
+jobs:
+  strategy-matrix:
+    # specify bash as default shell on all os
+    defaults:
+      run:
+        shell: bash
+
+    strategy:
+      max-parallel: 5 # we have 27 (3x3x3) matrix-jobs in total, but we only allow 5 to run simultaneously
+      fail-fast: false # if one of the matrix-jobs fails, the others should not be cancelled
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+        version: [8, 10, 12]
+        browser: [chrome, firefox, safari]
+
+    runs-on: ${{ matrix.os }}
+
+    steps:
+      - name: Print info
+        run: |
+          echo "OS:" ${{ matrix.os }}
+          echo "Version:" ${{ matrix.version }}
+          echo "Browser:" ${{ matrix.browser }}

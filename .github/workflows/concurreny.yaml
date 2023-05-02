@@ -1,0 +1,37 @@
+name: concurrency
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: hello-world-${{ github.ref }} # since we use workflow_dispatch ${{ github.ref }} will be the branch from which the workflow is executed
+  cancel-in-progress: true # cancel any currently running job or workflow in the same concurrency group and proceed with the new one
+
+jobs:
+  hello-world-1:
+    runs-on: ubuntu-latest
+    concurrency: hello-world # same group with hello-world-2
+    steps:
+      - uses: actions/checkout@v3
+      - run: |
+          echo "Hello world 1!"
+          sleep 5
+          echo "Hello world 1 again!"
+
+  hello-world-2:
+    runs-on: ubuntu-latest
+    concurrency: hello-world # same group with hello-world-1
+    steps:
+      - uses: actions/checkout@v3
+      - run: |
+          echo "Hello world 2!"
+          sleep 5
+          echo "Hello world 2 again!"
+
+  hello-world-3:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: |
+          echo "Hello world 3!"
+          sleep 5
+          echo "Hello world 3 again, no waiting here!"
