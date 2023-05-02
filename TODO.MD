@@ -6,7 +6,7 @@
 - [x] [workflows](docs/actions/workflows.md)
 - [x] [runners](docs/actions/runners.md)
 - [x] [strategy_and_matrix](docs/actions/strategy_and_matrix.md)
-- [ ] [secrets](docs/actions/secrets.md)
+- [x] [secrets](docs/actions/secrets.md)
 - [ ] [environments](docs/actions/environments.md)
 - [ ] [concurrency](docs/actions/concurrency.md)
 - [ ] [permissions](docs/actions/permissions.md)
