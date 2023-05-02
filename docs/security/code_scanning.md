@@ -72,3 +72,9 @@ Now let's say we were developing a different application in Javascript. Here's h
 ## Conclusion
 
 GitHub Code Scanning is an essential tool for any engineer concerned with the security of their codebase. It helps you automate the process of reviewing code for security vulnerabilities, improving the overall security of your applications. Code Scanning is easy to configure and integrate into your workflow, saving you time and reducing technical debt. By using Code Scanning, you can ensure the security and maintainability of your codebase.
+
+## References
+
+- [GitHub Code Scanning](https://docs.github.com/en/code-security/code-scanning)
+- [CodeQL](https://securitylab.github.com/tools/codeql)
+- [CodeQL Action](https://github.com/github/codeql-action)
