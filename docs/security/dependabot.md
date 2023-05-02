@@ -8,13 +8,13 @@ As an engineer, you rely on various dependencies to build your applications or w
 
 GitHub Dependabot is a tool that automates the process of checking for and installing updates to your project's dependencies. It integrates seamlessly with GitHub, and you can configure it to monitor your repositories and create pull requests to update your dependencies automatically.
 
-## How Does Dependabot Work?
+## How does Dependabot work?
 
 Dependabot works by periodically scanning your repositories for outdated dependencies. It checks the version numbers of your dependencies against the latest available versions and generates a list of updates. Dependabot then creates a pull request for each update, which you can review and merge.
 
 You can configure Dependabot to create pull requests for all updates or only for security updates. You can also set the frequency of scans and choose which package managers to monitor.
 
-## Benefits of Using Dependabot
+## Benefits of using Dependabot
 
 1. Saves time: Dependabot automates the process of checking for and installing updates to your dependencies. This saves you time and allows you to focus on more critical tasks.
 
