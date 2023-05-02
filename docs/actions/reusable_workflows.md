@@ -85,17 +85,10 @@ Now let's see the output of the caller workflow:
 
 ## Benefits of Reusable Workflows
 
-- Consistency: Reusable workflows ensure that your workflows are consistent across all of your repositories. This can help to prevent errors and inconsistencies that can arise when each repository has its own custom workflow.
-- Time saving: Reusable workflows can save you time and effort by reducing the amount of work required to create and maintain workflows. Once you have created a reusable workflow, you can easily reuse it across multiple repositories and workflows without having to recreate it each time.
-- Flexibility: Reusable workflows can be customized and configured to meet the specific needs of your project. You can define different workflows for different branches, repositories, or even teams.
-- Easy maintenance: Reusable workflows are easier to maintain than ad-hoc scripts or manual processes. Workflows are versioned and can be updated or modified as needed, ensuring that changes are propagated to all repositories that use them.
-
-## Best practices for Reusable Workflows
-
-- Use meaningful names: When naming your workflows, use names that are descriptive and meaningful. This makes it easier for others to understand the purpose of the workflow.
-- Use variables: Use variables to make your workflows more flexible and reusable. Variables can be defined at the workflow level or in a separate file.
-- Use dependencies: If your workflow depends on other workflows or actions, use dependencies to ensure that they are run in the correct order.
-- Test your workflows: Test your workflows thoroughly before using them in production. This ensures that they are working correctly and reduces the risk of errors.
+- **Consistency**: Reusable workflows ensure that your workflows are consistent across all of your repositories. This can help to prevent errors and inconsistencies that can arise when each repository has its own custom workflow.
+- **Time saving**: Reusable workflows can save you time and effort by reducing the amount of work required to create and maintain workflows. Once you have created a reusable workflow, you can easily reuse it across multiple repositories and workflows without having to recreate it each time.
+- **Flexibility**: Reusable workflows can be customized and configured to meet the specific needs of your project. You can define different workflows for different branches, repositories, or even teams.
+- **Easy maintenance**: Reusable workflows are easier to maintain than ad-hoc scripts or manual processes. Workflows are versioned and can be updated or modified as needed, ensuring that changes are propagated to all repositories that use them.
 
 ## Summary
 
