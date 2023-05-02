@@ -1,6 +1,6 @@
-# GitHub Actions - Workflows
+# GitHub Actions: Workflows
 
-## General
+## Overview
 
 As we learned, GitHub Actions is a powerful tool for automating software development workflows. One of the key features of GitHub Actions is the ability to create workflows that are triggered by specific events, such as a push to a specific branch or the opening of a pull request. Here we will explore the concepts of triggers, jobs, and steps in GitHub Actions, and provide examples of how to use these features to create powerful and efficient workflows.
 
@@ -132,7 +132,6 @@ It's also worth noting that there are many pre-built actions available in the [G
 
 In summary, GitHub Actions workflows consist of triggers, jobs, and steps. Triggers initiate the workflow and determine when it should run. Jobs are the units of work in a workflow and are made up of one or more steps. Steps are the individual tasks that make up a job and can include a variety of actions, such as running commands, checking out code, and deploying packages. By understanding how triggers, jobs, and steps work together, you can create powerful and efficient workflows that automate your software development process and save valuable time.
 
-## Resources
+## References
 
-- [**GitHub Actions - Workflows**](https://christosgalano.github.io/github/github-actions-workflows/)
 - [**About workflows**](https://docs.github.com/en/actions/using-workflows/about-workflows)

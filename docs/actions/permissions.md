@@ -1,6 +1,6 @@
-# GitHub Actions - Permissions
+# GitHub Actions: Permissions
 
-## General
+## Overview
 
 One of the key features of GitHub Actions is the ability to authenticate and authorize actions using GitHub Tokens, such as the GITHUB_TOKEN. Additionally, GitHub Actions also allows repository owners to fine-tune the access that workflow jobs have using the `permissions` keyword. In this blog post, we will take a detailed look at how someone can have granular control over the actions that their workflows take.
 
@@ -24,7 +24,7 @@ I recommend that you select the second option, following best security practices
 
 ## Permissions
 
-The `permissions` keyword is a feature in GitHub Actions that allows repository owners to fine-tune the access that workflow jobs have to resources within a repository. This can include things like reading or writing to the repository's code, creating and managing issues, and interacting with the GitHub API.
+The `permissions` keyword is a feature in GitHub Actions that allows repository owners to fine-tune the access that workflow jobs have to References within a repository. This can include things like reading or writing to the repository's code, creating and managing issues, and interacting with the GitHub API.
 
 Permissions can be used within single jobs or as a top-level key that applies to all jobs in the workflow. All operations and run commands within a given job that use the GITHUB_TOKEN are granted the access privileges you define when the `permissions` keyword is added to that task.
 
@@ -95,9 +95,8 @@ In the above example, we set read-all permission for all the jobs in a workflow.
 
 ## Summary
 
-In conclusion, the combination of `GITHUB_TOKEN` and `permissions` is a powerful tool that allows the fine-tuned access of workflow jobs. When assigning permissions, always remember to follow security best practices.
+In summary, the combination of `GITHUB_TOKEN` and `permissions` is a powerful tool that allows the fine-tuned access of workflow jobs. When assigning permissions, always remember to follow security best practices.
 
-## Resources
+## References
 
-- **Related repository:** [GitHub-Actions-Deep-Dive](https://github.com/christosgalano/GitHub-Actions-Deep-Dive)
-- **Related documentation:** [Assigning permissions to jobs](https://docs.github.com/en/actions/using-jobs/assigning-permissions-to-jobs)
+- [**Assigning permissions to jobs**](https://docs.github.com/en/actions/using-jobs/assigning-permissions-to-jobs)

@@ -1,10 +1,10 @@
-# GitHub Actions - Environments
+# GitHub Actions: Environments
 
-## General
+## Overview
 
 GitHub is a powerful tool for developers, and one of its most useful features is the ability to create different environments for different stages of development. In this post, we'll explore what GitHub environments are, how they work, and some examples of how they can be used.
 
-An environment on GitHub is essentially a collection of resources and settings that are used to run code. These environments can be used for different stages of development, such as development, staging, and production. By creating separate environments for each stage, developers can ensure that their code is thoroughly tested and ready for deployment before it goes live.
+An environment on GitHub is essentially a collection of References and settings that are used to run code. These environments can be used for different stages of development, such as development, staging, and production. By creating separate environments for each stage, developers can ensure that their code is thoroughly tested and ready for deployment before it goes live.
 
 One of the key benefits of using GitHub environments is that they allow for easy collaboration and testing. For example, a developer can create a development environment and invite other team members to collaborate on the code. This allows for real-time feedback and testing, which can help catch bugs and other issues early on.
 
@@ -53,7 +53,7 @@ jobs:
         uses: actions/checkout@v3
       - name: Deploy to development
         run: |
-          echo "Deploying to ${{ vars.ENV}} with secret ${{ secrets.ADMIN_PASSWORD }} ..."
+          echo "Deploying to ${{ vars.ENV}} ..."
   prod:
     runs-on: ubuntu-latest
     environment: production
@@ -62,20 +62,19 @@ jobs:
         uses: actions/checkout@v3
       - name: Deploy to production
         run: |
-          echo "Deploying to ${{ vars.ENV}} with secret ${{ secrets.ADMIN_PASSWORD }} ..."
+          echo "Deploying to ${{ vars.ENV}} ..."
 ```
 
 In this example, the workflow is triggered manually. We have two jobs which both check out the code and print a message.
 
 The `environment` keyword is used to specify each job's environment.
 
-The `vars` and `secrets` context is also showcased. These configurations can be set by going to "Settings/Environments" and selecting the environment you want to configure.
+The `vars` context is also showcased. These configurations can be set by going to "Settings/Environments" and selecting the environment you want to configure.
 
 ## Summary
 
-In conclusion, GitHub environments are a powerful tool for developers that can help to improve collaboration, testing, and deployment. By creating separate environments for different stages of development, developers can ensure that their code is thoroughly tested and ready for deployment before it goes live. Additionally, GitHub environments can be easily managed and configured, making them a great choice for developers looking for an efficient way to handle different stages of their projects.
+In summary, GitHub environments are a powerful tool for developers that can help to improve collaboration, testing, and deployment. By creating separate environments for different stages of development, developers can ensure that their code is thoroughly tested and ready for deployment before it goes live. Additionally, GitHub environments can be easily managed and configured, making them a great choice for developers looking for an efficient way to handle different stages of their projects.
 
-## Resources
+## References
 
-- **Related repository:** [GitHub-Actions-Deep-Dive](https://github.com/christosgalano/GitHub-Actions-Deep-Dive)
-- **Related documentation:** [Using environments for deployment](https://docs.github.com/en/actions/deployment/targeting-different-environments/using-environments-for-deployment)
+- [**Using environments for deployment**](https://docs.github.com/en/actions/deployment/targeting-different-environments/using-environments-for-deployment)

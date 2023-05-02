@@ -1,6 +1,6 @@
-# GitHub Actions - Concurrency
+# GitHub Actions: Concurrency
 
-## General
+## Overview
 
 GitHub Actions allows you to optimize the execution time of your workflows by using the `concurrency` keyword. This keyword can be used at the workflow scope, or within a specific job, to specify how many actions can run simultaneously. In this blog post, we will explore the use of the `concurrency` keyword in GitHub Actions and provide some examples to make it clearer.
 
@@ -69,7 +69,6 @@ And this is an example output with `cancel-in-progress: true`:
 
 In this blog post, we discussed how to use the `concurrency` keyword in GitHub Actions to speed up workflow execution. By allowing multiple actions to run simultaneously, concurrency can greatly reduce the overall execution time of a workflow. We explained how to set concurrency at the top level of the workflow file, within a specific job, or within a group of jobs, and also provided an example showcasing all of the above.
 
-## Resources
+## References
 
-- **Related repository:** [GitHub-Actions-Deep-Dive](https://github.com/christosgalano/GitHub-Actions-Deep-Dive)
-- **Related documentation:** [Using concurrency](https://docs.github.com/en/actions/using-jobs/using-concurrency)
+- [**Using concurrency**](https://docs.github.com/en/actions/using-jobs/using-concurrency)

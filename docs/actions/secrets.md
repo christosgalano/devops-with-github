@@ -1,6 +1,6 @@
-# GitHub Actions - Secrets
+# GitHub Actions: Secrets
 
-## General
+## Overview
 
 GitHub Secrets is a powerful feature that allows you to store and manage sensitive data, such as API keys, tokens, and passwords, in a secure and encrypted manner. By using GitHub Secrets, you can keep your sensitive data safe and secure, while still being able to use it in your workflows.
 
@@ -42,7 +42,6 @@ In this example, the workflow is triggered by a push to the repository. The azur
 
 In summary, GitHub Secrets is a powerful feature that allows you to store and manage sensitive data, such as API keys, tokens, and passwords, in a secure and encrypted manner. By using GitHub Secrets, you can keep your sensitive data safe and secure, while still being able to use it in your workflows. By referencing a secret in a workflow, you can use sensitive data in a secure manner without having to hardcode it into your workflow or store it in plain text. With GitHub Secrets, you can automate your software development process without compromising security.
 
-## Resources
+## References
 
-- **Related repository:** [GitHub-Actions-Deep-Dive](https://github.com/christosgalano/GitHub-Actions-Deep-Dive)
-- **Related documentation:** [Encrypted secrets](https://docs.github.com/en/actions/security-guides/encrypted-secrets)
+- [**Encrypted secrets**](https://docs.github.com/en/actions/security-guides/encrypted-secrets)

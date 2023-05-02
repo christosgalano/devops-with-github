@@ -16,7 +16,7 @@ When Secret Scanning identifies a potential secret, it creates an alert in your 
 
 You can configure Secret Scanning to scan your repositories automatically or manually. Automatic scanning integrates with your existing workflows, providing feedback on pull requests, and preventing secrets from being merged into your codebase. Manual scanning allows you to scan your repositories on-demand, providing immediate feedback on any potential secrets.
 
-## Benefits of Using Secret Scanning
+## Benefits of using Secret Scanning
 
 1. Improves Security: Secret Scanning helps you find and remediate potential secrets in your codebase, improving the overall security of your applications.
 
@@ -36,10 +36,10 @@ As we mentioned Secret Scanning will scan your repository and identify any poten
 
 You can now investigate the alert and take appropriate action to remediate the issue.
 
-## Conclusion
+## Summary
 
 GitHub Secret Scanning is an essential tool for any developer concerned with the security of their codebase. It helps you automate the process of scanning code for potential secrets, improving the overall security of your applications. Secret Scanning is easy to configure and integrate into your workflow, saving you time and reducing technical debt. By using Secret Scanning, you can ensure the security and maintainability of your codebase.
 
 ## References
 
-- [GitHub Secret Scanning](https://docs.github.com/en/code-security/secret-scanning)
+- [**GitHub Secret Scanning**](https://docs.github.com/en/code-security/secret-scanning)

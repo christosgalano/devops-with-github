@@ -48,10 +48,10 @@ And here is an example pull request that dependabot created:
 
 ![dependabot-pr](../../../images/security/dependabot-pr.png)
 
-## Conclusion
+## Summary
 
 Keeping your dependencies up-to-date is critical for maintaining the security and stability of your applications. However, managing dependencies can be a time-consuming and challenging task. GitHub Dependabot automates this process, saving you time and improving the security of your applications. It's easy to configure and integrates seamlessly with GitHub, making it an essential tool for any engineer, whether it is software or devops.
 
 ## References
 
-- [GitHub Dependabot](https://docs.github.com/en/code-security/supply-chain-security/keeping-your-dependencies-updated-automatically/about-dependabot-version-updates)
+- [**GitHub Dependabot**](https://docs.github.com/en/code-security/supply-chain-security/keeping-your-dependencies-updated-automatically/about-dependabot-version-updates)

@@ -1,6 +1,6 @@
-# GitHub Actions - Actions
+# GitHub Actions: Actions
 
-## General
+## Overview
 
 As we have already mentioned, GitHub Actions is a powerful automation tool that allows developers to create custom workflows for their projects. These workflows, or "actions", can be used to automate a wide variety of tasks, such as building and testing code, deploying code to production, and more. In this blog post, we will take a detailed look at what actions are and how to create your own using an example of a custom action that i've written and use regularly. The name of the action is `create-update-label` and its purpose is to update an issue label (or create one if one does not exist) in every repository of a user.
 
@@ -144,8 +144,6 @@ In this example, the workflow is named "create-update-label" and it is triggered
 
 To summarize, GitHub Actions allows users to create and reuse their own actions in their workflows. They can be written in any language and run on any operating system, and they can be used to perform a variety of tasks such as building, deploying code, running tests, and sending notifications. They can be stored in a separate repository, shared and reused across multiple projects and teams, and also versioned to ensure they are tested and working correctly before they are used in production.
 
-## Resources
+## References
 
-- **Related repository:** [GitHub-Actions-Deep-Dive](https://github.com/christosgalano/GitHub-Actions-Deep-Dive)
-- **Related repository:** [Workflows-Actions-Library](https://github.com/christosgalano/Workflows-Actions-Library)
-- **Related documentation:** [About custom actions](https://docs.github.com/en/actions/creating-actions/about-custom-actions)
+- [**About custom actions**](https://docs.github.com/en/actions/creating-actions/about-custom-actions)
