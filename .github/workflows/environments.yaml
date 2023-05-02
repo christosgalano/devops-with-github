@@ -12,7 +12,7 @@ jobs:
         uses: actions/checkout@v3
       - name: Deploy to development
         run: |
-          echo "Deploying to ${{ vars.ENV}} with secret ${{ secrets.ADMIN_PASSWORD }} ..."
+          echo "Deploying to ${{ vars.ENV}} ..."
   prod:
     runs-on: ubuntu-latest
     environment: production
@@ -21,4 +21,4 @@ jobs:
         uses: actions/checkout@v3
       - name: Deploy to production
         run: |
-          echo "Deploying to ${{ vars.ENV}} with secret ${{ secrets.ADMIN_PASSWORD }} ..."
+          echo "Deploying to ${{ vars.ENV}} ..."
