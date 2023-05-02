@@ -43,7 +43,7 @@ For example, if you want to reference a workflow called `test.yaml` from:
 Let's take a look at an example of a reusable workflow:
 
 ```yaml
-# File: .github/workflows/hello.yaml
+# .github/workflows/hello.yaml
 name: hello
 on:
   workflow_call:
@@ -67,7 +67,7 @@ The above workflow is a reusable workflow because it contains the `workflow_call
 Now let's take a look at a caller workflow that uses the above workflow:
 
 ```yaml
-# File: .github/workflows/caller.yaml
+# .github/workflows/caller.yaml
 name: caller
 on:
   workflow_dispatch:
