@@ -18,13 +18,13 @@ You can configure Secret Scanning to scan your repositories automatically or man
 
 ## Benefits of using Secret Scanning
 
-1. Improves Security: Secret Scanning helps you find and remediate potential secrets in your codebase, improving the overall security of your applications.
+1. **Improves security**: Secret Scanning helps you find and remediate potential secrets in your codebase, improving the overall security of your applications.
 
-2. Saves time: Secret Scanning automates the process of scanning code for secrets, saving you time and allowing you to focus on other critical tasks.
+2. **Saves time**: Secret Scanning automates the process of scanning code for secrets, saving you time and allowing you to focus on other critical tasks.
 
-3. Easy to configure: Secret Scanning is easy to configure and integrate into your workflow. You can set it up quickly and start receiving feedback on potential secrets in your codebase.
+3. **Easy to configure**: Secret Scanning is easy to configure and integrate into your workflow. You can set it up quickly and start receiving feedback on potential secrets in your codebase.
 
-4. Reduces technical debt: Leaving secrets in your codebase can lead to technical debt and potential security vulnerabilities. Secret Scanning helps you identify and remediate potential secrets quickly, reducing technical debt and ensuring the maintainability of your codebase.
+4. **Reduces technical deb**t: Leaving secrets in your codebase can lead to technical debt and potential security vulnerabilities. Secret Scanning helps you identify and remediate potential secrets quickly, reducing technical debt and ensuring the maintainability of your codebase.
 
 ## Example
 
