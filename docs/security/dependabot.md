@@ -16,13 +16,13 @@ You can configure Dependabot to create pull requests for all updates or only for
 
 ## Benefits of using Dependabot
 
-1. Saves time: Dependabot automates the process of checking for and installing updates to your dependencies. This saves you time and allows you to focus on more critical tasks.
+1. **Saves time**: Dependabot automates the process of checking for and installing updates to your dependencies. This saves you time and allows you to focus on more critical tasks.
 
-2. Improves security: Dependabot scans for security updates, which can help you keep your applications and workflows secure and protect against vulnerabilities.
+2. **Improves security**: Dependabot scans for security updates, which can help you keep your applications and workflows secure and protect against vulnerabilities.
 
-3. Easy to configure: Dependabot is easy to configure and integrate into your workflow. You can set it up quickly and start receiving updates without any extra effort.
+3. **Easy to configure**: Dependabot is easy to configure and integrate into your workflow. You can set it up quickly and start receiving updates without any extra effort.
 
-4. Reduces technical debt: Outdated dependencies can result in technical debt and make it difficult to maintain your applications. Dependabot helps you stay up-to-date with the latest versions, reducing technical debt and making it easier to maintain your codebase.
+4. **Reduces technical debt**: Outdated dependencies can result in technical debt and make it difficult to maintain your applications. Dependabot helps you stay up-to-date with the latest versions, reducing technical debt and making it easier to maintain your codebase.
 
 ## Example
 
