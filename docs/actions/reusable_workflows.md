@@ -81,7 +81,7 @@ jobs:
 
 Now let's see the output of the caller workflow:
 
-
+![caller](../../images/actions/caller.png)
 
 ## Benefits of Reusable Workflows
 
