@@ -90,11 +90,11 @@ Now let's see the output of the caller workflow:
 - **Flexibility**: Reusable workflows can be customized and configured to meet the specific needs of your project. You can define different workflows for different branches, repositories, or even teams.
 - **Easy maintenance**: Reusable workflows are easier to maintain than ad-hoc scripts or manual processes. Workflows are versioned and can be updated or modified as needed, ensuring that changes are propagated to all repositories that use them.
 
-## References
-
-- [Reusing workflows](https://docs.github.com/en/actions/using-workflows/reusing-workflows)
-
-
 ## Summary
 
 GitHub Workflows are a powerful tool for automating repetitive tasks and improving efficiency in the development process. By using reusable workflows, you can save time, ensure consistency, and increase flexibility. With these best practices, you can create workflows that are easy to maintain, scalable, and adaptable to your specific needs. By embracing reusable workflows, you can maximize your efficiency and focus on what really matters - building great software.
+
+## References
+
+- [**Reusing workflows**](https://docs.github.com/en/actions/using-workflows/reusing-workflows)
+
