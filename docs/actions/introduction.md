@@ -1,5 +1,7 @@
 # GitHub Actions: Introduction
 
+> **Starting out with GitHub Actions**
+
 ## Overview
 
 GitHub Actions is a powerful tool that enables developers to automate their workflow and streamline their development process. With GitHub Actions, developers can create custom actions, which are essentially scripts that can be triggered by specific events within a GitHub repository.

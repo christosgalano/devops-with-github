@@ -1,8 +1,10 @@
 # GitHub Actions: Workflows
 
+> **Workflows 101**
+
 ## Overview
 
-As we learned, GitHub Actions is a powerful tool for automating software development workflows. One of the key features of GitHub Actions is the ability to create workflows that are triggered by specific events, such as a push to a specific branch or the opening of a pull request. Here we will explore the concepts of triggers, jobs, and steps in GitHub Actions, and provide examples of how to use these features to create powerful and efficient workflows.
+One of the key features of GitHub Actions is the ability to create workflows that are triggered by specific events, such as a push to a specific branch or the opening of a pull request. Here we will explore the concepts of triggers, jobs, and steps in GitHub Actions, and provide examples of how to use these features to create powerful and efficient workflows.
 
 ## Triggers
 

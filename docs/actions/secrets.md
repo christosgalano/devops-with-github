@@ -1,5 +1,7 @@
 # GitHub Actions: Secrets
 
+> **Keep your sensitive data safe and sound**
+
 ## Overview
 
 GitHub Secrets is a powerful feature that allows you to store and manage sensitive data, such as API keys, tokens, and passwords, in a secure and encrypted manner. By using GitHub Secrets, you can keep your sensitive data safe and secure, while still being able to use it in your workflows.

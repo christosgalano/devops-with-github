@@ -1,44 +1,43 @@
 # GitHub Actions: Environments
 
+> **A guide to streamlining your development workflow**
+
 ## Overview
 
-GitHub is a powerful tool for developers, and one of its most useful features is the ability to create different environments for different stages of development. In this post, we'll explore what GitHub environments are, how they work, and some examples of how they can be used.
+Deploying your application or infrastructure to different environments is a crucial part of the software development process. However, managing and configuring these environments can be a complex and time-consuming task, especially if you have multiple environments with different requirements and configurations. Inconsistent environments can lead to compatibility issues or errors that can impact the reliability and performance of your application. Fortunately, GitHub Environments can help you streamline the deployment process and ensure consistency across different environments. With GitHub Environments, you can define, manage, and protect your environments by creating rules and access policies for each environment.
 
-An environment on GitHub is essentially a collection of References and settings that are used to run code. These environments can be used for different stages of development, such as development, staging, and production. By creating separate environments for each stage, developers can ensure that their code is thoroughly tested and ready for deployment before it goes live.
+## What are GitHub Environments?
 
-One of the key benefits of using GitHub environments is that they allow for easy collaboration and testing. For example, a developer can create a development environment and invite other team members to collaborate on the code. This allows for real-time feedback and testing, which can help catch bugs and other issues early on.
+GitHub environments are a feature that allows you to create multiple “environments” for your code, such as development, staging, and production. Each environment is a separate instance of your code, with its own settings and configurations. This allows you to test and deploy your code in a controlled and reproducible way.
 
-Another benefit of GitHub environments is that they can be easily managed and configured. For example, developers can create a staging environment that mirrors the production environment, which allows for easy testing of new features and updates. Additionally, developers can use GitHub's built-in tools to manage and scale their environments as needed.
+## Why use GitHub Environments?
 
-## Usage
+There are several reasons why GitHub environments are useful for development teams:
 
-So, how do you go about creating and using environments in GitHub?
+- **Improved collaboration**: Environments allow teams to collaborate more effectively, by providing a way to share code and test changes in a controlled environment.
 
-First, you'll need to create a new repository on GitHub. Once the repository is created, you can create a new environment by going to the "Settings" tab and selecting "Environments." From there, you can create a new environment and configure it as needed.
+- **Streamlined testing**: With environments, you can easily test your code in different environments, such as staging or production, without affecting your production code.
 
-Once your environment is set up, you can start deploying your code to it. You can do this by connecting your environment to a deployment tool such as GitHub Actions, CircleCI, or Travis CI. These tools allow you to automatically deploy your code to your environment whenever changes are made to your repository.
+- **Increased reliability**: Environments provide a way to ensure that your code is tested and working properly before it is deployed to production, reducing the risk of errors or bugs.
 
-Another way to deploy code to environments is by using webhooks. A webhook is a way for GitHub to notify another service when certain events occur in a repository. For example, you could create a webhook that triggers a deployment to your environment whenever a pull request is merged.
+## How to use GitHub Environments
 
-Here are some examples of how you can use GitHub environments:
+Setting up GitHub environments is a straightforward process. Here are the steps you need to follow:
 
-- **Development**: Create a development environment for each feature or bug fix that you're working on. This allows you to test your code changes in isolation and ensure that they don't break other parts of the application.
+1. Define your environments: Before you create your environments, you need to define what environments you will use. Common environments include development, staging, and production.
 
-- **Staging**: Set up a staging environment that mirrors your production environment. This allows you to test new features and updates before they go live.
+2. Create your environments: Once you have defined your environments, you can create them in GitHub. To create an environment, go to the “Environments” tab in your repository, and click “New environment”.
 
-- **Production**: Use a production environment for your live application. This environment should be configured to handle high traffic and provide a stable and reliable experience for your users.
+3. Set up your environment: Once you have created your environment, you can configure it with the settings and configurations that you need like variables and secrets scoped specifically to this environment.
 
-- **Continuous Integration and Deployment (CI/CD)**: Use GitHub Actions, CircleCI, or Travis CI to automatically deploy your code to your environment whenever changes are made. This allows you to quickly and easily deploy updates to your application without manual intervention.
-
-- **A/B testing**: Create multiple versions of your application and deploy them to different environments. This allows you to test different variations and see which one performs best.
+4. Deploy your code: Once your environment is set up, you can deploy your code to it. You can use GitHub Actions to automate this process, and ensure that your code is deployed consistently across all environments. The `environment` keyword in GitHub Actions allows you to specify the environment to which your code should be deployed. This is particularly useful when you have multiple environments, such as development, staging, and production, and you want to ensure that your code is deployed to the correct environment.
 
 ## Example
 
-The `environment` keyword in GitHub Actions allows you to specify the environment to which your code should be deployed. This is particularly useful when you have multiple environments, such as development, staging, and production, and you want to ensure that your code is deployed to the correct environment.
-
-The example we'll look at is available [**here**](https://github.com/christosgalano/GitHub-Actions-Deep-Dive/blob/main/.github/workflows/environments.yaml):
+Let's take a look at an example:
 
 ```yaml
+# .github/workflows/environments.yaml
 name: environments
 
 on:
@@ -65,15 +64,19 @@ jobs:
           echo "Deploying to ${{ vars.ENV}} ..."
 ```
 
-In this example, the workflow is triggered manually. We have two jobs which both check out the code and print a message.
+Here, the workflow is triggered manually. We have two jobs which both check out the code and print a message.
 
 The `environment` keyword is used to specify each job's environment.
 
 The `vars` context is also showcased. These configurations can be set by going to "Settings/Environments" and selecting the environment you want to configure.
 
+Now let's see the output of the deployments that occurred:
+
+![environments](../../images/actions/environments.png)
+
 ## Summary
 
-In summary, GitHub environments are a powerful tool for developers that can help to improve collaboration, testing, and deployment. By creating separate environments for different stages of development, developers can ensure that their code is thoroughly tested and ready for deployment before it goes live. Additionally, GitHub environments can be easily managed and configured, making them a great choice for developers looking for an efficient way to handle different stages of their projects.
+GitHub environments are a powerful feature that can help streamline your development workflow and improve collaboration among team members. By creating multiple environments, you can test and deploy your code in a controlled and reproducible way, reducing the risk of errors or bugs. If you’re not already using environments in your development workflow, now is a great time to start!
 
 ## References
 

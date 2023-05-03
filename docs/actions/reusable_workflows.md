@@ -1,6 +1,6 @@
 # GitHub Actions: Reusable Workflows
 
-Maximizing Efficiency with Reusable Workflows in GitHub
+> **Maximizing efficiency with reusable workflows**
 
 ## Overview
 
@@ -97,4 +97,3 @@ GitHub Workflows are a powerful tool for automating repetitive tasks and improvi
 ## References
 
 - [**Reusing workflows**](https://docs.github.com/en/actions/using-workflows/reusing-workflows)
-
