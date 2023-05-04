@@ -27,7 +27,7 @@ It's also worth noting that GitHub Secrets can also be used to store sensitive d
 Let's take a look at an example:
 
 ```yaml
-# File: .github/workflows/secrets.yaml
+# .github/workflows/secrets.yaml
 name: secrets
 on:
   workflow_dispatch:

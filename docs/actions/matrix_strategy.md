@@ -1,6 +1,6 @@
 # GitHub Actions: Matrix Strategy
 
-> **Implementing a Matrix Strategy in GitHub Actions**
+> **Test better and faster with GitHub Actions Matrix Strategy**
 
 ## Overview
 
