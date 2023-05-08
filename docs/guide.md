@@ -21,7 +21,7 @@ This document serves as a study guide by providing you the recommended order in 
 2. [**Code Scanning**](security/code_scanning.md)
 3. [**Secret Scanning**](security/secret_scanning.md)
 
-## Branches
+## GitHub Branches
 
 - [**Protection Rules**](branches/protection_rules.md)
 - [**Deployment Models**](branches/deployment_models.md)
