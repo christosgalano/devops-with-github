@@ -19,7 +19,7 @@
 - [x] [code-scanning](docs/security/code_scanning.md)
 - [x] [secret-scanning](docs/security/secret_scanning.md)
 
-## Various
+## Branches
 
-- [ ] [protection-rules](docs/various/branch_protection_rules.md)
-- [ ] [deployment-strategies](docs/various/deployment_strategies.md)
+- [ ] [protection-rules](docs/branches/protection_rules.md)
+- [ ] [deployment-models](docs/branches/deployment_models.md)
