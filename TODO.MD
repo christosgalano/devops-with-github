@@ -21,5 +21,5 @@
 
 ## Branches
 
-- [ ] [protection-rules](docs/branches/protection_rules.md)
+- [x] [protection-rules](docs/branches/protection_rules.md)
 - [ ] [deployment-models](docs/branches/deployment_models.md)
