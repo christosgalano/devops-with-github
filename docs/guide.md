@@ -25,3 +25,7 @@ This document serves as a study guide by providing you the recommended order in 
 
 - [**Protection Rules**](branches/protection_rules.md)
 - [**Deployment Models**](branches/deployment_models.md)
+
+## CODEOWNERS
+
+- [**CODEOWNERS**](codeowners/codeowners.md)
