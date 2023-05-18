@@ -37,7 +37,7 @@ The merge deploy model carries inherent risks as the main branch is never consis
 
 On the other hand, the branch deploy model ensures that the main branch remains in a "desirable" state, allowing for seamless deployment rollbacks if needed. In this model, changes are merged into the main branch only after successful deployment and validation of the branch. This approach minimizes risks and ensures a more reliable deployment process.
 
-## Essential Principles of the branch deploy model
+## Principles of the branch deploy model
 
 - The main branch is regarded as a stable and deployable branch at all times. It represents the production-ready state of the codebase.
 
