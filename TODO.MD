@@ -22,7 +22,7 @@
 ## Branches
 
 - [x] [protection-rules](docs/branches/protection_rules.md)
-- [ ] [deployment-models](docs/branches/deployment_models.md)
+- [x] [deployment-models](docs/branches/deployment_models.md)
 
 ## Codeowners
 

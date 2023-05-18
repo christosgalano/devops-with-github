@@ -61,13 +61,13 @@ jobs:
 
 Here is an example output when everything is working correctly:
 
-![code-scanning-1](../../images/security/code-scanning-1.png)
+![code-scanning-1](/assets/images/security/code-scanning-1.png)
 
 ### Example 2
 
 Now let's say we were developing a different application in Javascript. Here's how Code Scanning would report a vulnerability in our code:
 
-![code-scanning-2](../../images/security/code-scanning-2.png)
+![code-scanning-2](/assets/images/security/code-scanning-2.png)
 
 ## Summary
 

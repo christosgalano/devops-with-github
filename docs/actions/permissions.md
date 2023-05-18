@@ -94,7 +94,7 @@ jobs:
 
 In the above example, we set read-all permission for all the jobs in a workflow. We also override that value in `job-3`, where we disable all permissions and so we expect that this job will fail since it can not complete the action of checking out the repository.
 
-![permissions](../../images/actions/permissions.png)
+![permissions](/assets/images/actions/permissions.png)
 
 ## Summary
 

@@ -72,7 +72,7 @@ The `vars` context is also showcased. These configurations can be set by going t
 
 Now let's see the output of the deployments that occurred:
 
-![environments](../../images/actions/environments.png)
+![environments](/assets/images/actions/environments.png)
 
 ## Summary
 

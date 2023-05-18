@@ -46,7 +46,7 @@ updates:
 
 And here is an example pull request that dependabot created:
 
-![dependabot-pr](../../images/security/dependabot-pr.png)
+![dependabot-pr](/assets/images/security/dependabot-pr.png)
 
 ## Summary
 

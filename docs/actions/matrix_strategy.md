@@ -81,7 +81,7 @@ We also put a limit of 5 to how many jobs can run simultaneously by using `max-p
 
 Finally, we do not want all of the remaining jobs to be cancelled if a matrix-job fails, so we specify `fail-fast: false`.
 
-![strategy-matrix](../../images/actions/strategy-matrix.png)
+![strategy-matrix](/assets/images/actions/strategy-matrix.png)
 
 ## Summary
 

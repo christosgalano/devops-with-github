@@ -32,7 +32,7 @@ Let's look at an example of how Secret Scanning works. Suppose you have a reposi
 
 As we mentioned Secret Scanning will scan your repository and identify any potential secrets, creating an alert in your repository. So a possible alert will look like this:
 
-![secret-scanning](../../images/security/secret-scanning.png)
+![secret-scanning](/assets/images/security/secret-scanning.png)
 
 You can now investigate the alert and take appropriate action to remediate the issue.
 

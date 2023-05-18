@@ -26,7 +26,7 @@ Now let's take a look at some of the rules provided.
 
 **NOTE:** all the examples shown below protect the `main` branch.
 
-![main-branch](../../images/branches/main-branch.png)
+![main-branch](/assets/images/branches/main-branch.png)
 
 ### Require a pull request before merging
 
@@ -34,7 +34,7 @@ Once activated, this rule mandates that all commits must be made to a non-protec
 
 Here is an example of the above rule:
 
-![require-pull-request](../../images/branches/require-pull-request.png)
+![require-pull-request](/assets/images/branches/require-pull-request.png)
 
 In order for someone to able to merge into the main branch, they must first:
 
@@ -44,7 +44,7 @@ In order for someone to able to merge into the main branch, they must first:
 
 Below is an example of an attempt to push directly to the main branch:
 
-![pr-before-merge-error](../../images/branches/pr-before-merge-error.png)
+![pr-before-merge-error](/assets/images/branches/pr-before-merge-error.png)
 
 ### Require status checks to pass before merging
 
@@ -52,7 +52,7 @@ With this rule, you have the flexibility to select the specific status checks th
 
 Let's take a look at an example.
 
-![require-status-checks](../../images/branches/require-status-checks.png)
+![require-status-checks](/assets/images/branches/require-status-checks.png)
 
 We can see that someone can only merge into the main branch if the following criteria are met:
 
@@ -62,11 +62,11 @@ We can see that someone can only merge into the main branch if the following cri
 
 Below are some possible outputs of the specified rule:
 
-![status-checks-required](../../images/branches/status-checks-required.png)
+![status-checks-required](/assets/images/branches/status-checks-required.png)
 
-![status-checks-failed](../../images/branches/status-checks-failed.png)
+![status-checks-failed](/assets/images/branches/status-checks-failed.png)
 
-![status-checks-passed](../../images/branches/status-checks-passed.png)
+![status-checks-passed](/assets/images/branches/status-checks-passed.png)
 
 If your triggers contain filtering (branch and/or path), check this out: [**Troubleshooting required status checks**](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/troubleshooting-required-status-checks)
 
@@ -74,7 +74,7 @@ If your triggers contain filtering (branch and/or path), check this out: [**Trou
 
 Just as with status checks, one can require that deployments succeed before merging into a branch. Once enabled, the workflow entails pushing commits to a separate branch first. Only after the deployments have successfully passed can the commits be merged or directly pushed to the branch that adheres to this rule.
 
-![require-deployments](../../images/branches/require-deployments.png)
+![require-deployments](/assets/images/branches/require-deployments.png)
 
 So, following this logic, we can see that in order to merge into the main branch, the deployments of both the development and production environments must succeed.
 
@@ -82,7 +82,7 @@ So, following this logic, we can see that in order to merge into the main branch
 
 By default all these rules do not apply to administrators and custom roles with the "bypass branch protections" permission. In order to enforce these rules for all users, you can enable the "Do not allow bypassing the above settings" option.
 
-![do-not-allow-bypassing](../../images/branches/do-not-allow-bypassing.png)
+![do-not-allow-bypassing](/assets/images/branches/do-not-allow-bypassing.png)
 
 ## Summary
 

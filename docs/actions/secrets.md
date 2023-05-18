@@ -52,7 +52,7 @@ Here we have a workflow that shows how to use GitHub Secrets. The workflow conta
 
 The output logs of the workflow are shown below:
 
-![secrets](../../images/actions/secrets.png)
+![secrets](/assets/images/actions/secrets.png)
 
 We can see that although the conditional evaluates to true, nowhere in the output logs is our password exposed. This is because the value of the `ADMIN_PASSWORD` secret is encrypted and stored securely on GitHub's servers.
 
