@@ -1,4 +1,6 @@
-# GitHub Dependabot: Keeping Your Dependencies Up-to-Date
+# GitHub Security: Dependabot
+
+> **Keep your dependencies up-to-date**
 
 ## Overview
 

@@ -1,4 +1,6 @@
-# Deployment Models
+# GitHub Branches: Deployment Models
+
+> **Deploy with confidence**
 
 ## Overview
 

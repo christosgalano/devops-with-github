@@ -1,4 +1,6 @@
-# GitHub Secret Scanning: Protecting Your Secrets
+# GitHub Security: Secret Scanning
+
+> **Protect your secrets**
 
 ## Overview
 

@@ -1,4 +1,6 @@
-# Branch Protection rules: A guide to one of GitHub's best features
+# GitHub Branches: Protection Rules
+
+> **A guide to one of GitHub's best features**
 
 ## Overview
 

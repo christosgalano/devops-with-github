@@ -1,4 +1,6 @@
-# CODEOWNERS: Managing Code Ownership in GitHub
+# GitHub CODEOWNERS
+
+> **Managing code ownership in GitHub**
 
 ## Overview
 

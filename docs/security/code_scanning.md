@@ -1,4 +1,6 @@
-# GitHub Code Scanning: Securing Your Codebase
+# GitHub Security: Code Scanning
+
+> **Secure your codebase**
 
 ## Overview
 
