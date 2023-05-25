@@ -28,7 +28,7 @@ JavaScript actions run directly on the runner machine and separate the action co
 
 ### Composite actions
 
-Composite actions allow you to combine multiple workflow steps within a single action. They are useful for bundling commands into a single step and simplifying complex workflows. By creating composite actions, you can improve the readability and maintainability of your workflows. Check out the "Creating a composite action" guide for an example of how to create and use composite actions effectively.
+Composite actions allow you to combine multiple workflow steps within a single action. They are useful for bundling commands into a single step and simplifying complex workflows. By creating composite actions, you can improve the readability and maintainability of your workflows.
 
 ## Metadata syntax
 
