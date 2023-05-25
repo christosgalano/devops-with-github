@@ -151,9 +151,10 @@ We can see that the action accepts four input parameters: `owner`, `repo`, `toke
 
 The action is composite and basically what it does is run a single step, which is a [**shell script**](https://github.com/christosgalano/delete-workflow-runs/blob/main/delete_workflow_runs.sh) that deletes the workflow runs for the given repository.
 
-A possible workflow file that uses the above action is as follows (also [**here**](../../.github/workflows/delete_workflow_runs.yaml)):
+A possible workflow file that uses the above action is as follows:
 
 ```yaml
+# .github/workflows/delete_workflow_runs.yaml
 name: delete-workflow-runs
 run-name: ${{ github.workflow }}
 on:
