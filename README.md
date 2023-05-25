@@ -4,6 +4,8 @@
 
 Welcome to the **devops-with-github** repository! This repository serves as a thorough library of documentation, focusing on how to leverage GitHub for DevOps practices. It provides comprehensive resources and guidance on utilizing GitHub's capabilities to streamline your development and operations workflows.
 
+An end-to-end example of all the concepts presented here can be found in the [**devops-with-github-example**](https://github.com/christosgalano/devops-with-github-example) repository.
+
 ## Contents
 
 ### GitHub Actions
