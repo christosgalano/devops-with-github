@@ -1,0 +1,36 @@
+# This workflows deletes the runs of all the workflows in a repository.
+name: delete-workflow-runs
+run-name: ${{ github.workflow }}
+on:
+  workflow_dispatch:
+    inputs:
+      repo_name:
+        description: "Specify the name of the repository"
+        required: true
+        type: string
+      workflow_name:
+        description: "Specify the name of the workflow"
+        required: false
+        type: string
+
+jobs:
+  delete-specific-workflow-runs:
+    if: inputs.workflow_name != ''
+    runs-on: ubuntu-latest
+    steps:
+      - uses: christosgalano/delete-workflow-runs@v1.0.0
+        with:
+          owner: ${{ github.repository_owner }}
+          repo: ${{ inputs.repo_name }}
+          token: ${{ secrets.WORKFLOWS_MANAGER_PAT }}
+          workflow: ${{ inputs.workflow_name }}
+  
+  delete-all-workflow-runs:
+    if: inputs.workflow_name == ''
+    runs-on: ubuntu-latest
+    steps:
+      - uses: christosgalano/delete-workflow-runs@v1.0.0
+        with:
+          owner: ${{ github.repository_owner }}
+          repo: ${{ inputs.repo_name }}
+          token: ${{ secrets.WORKFLOWS_MANAGER_PAT }}
