@@ -1,6 +1,6 @@
 # devops-with-github
 
-![github](assets/images/readme/github.png)
+![github](/assets/images/readme/github.png)
 
 Welcome to the **devops-with-github** repository! This repository serves as a thorough library of documentation, focusing on how to leverage GitHub for DevOps practices. It provides comprehensive resources and guidance on utilizing GitHub's capabilities to streamline your development and operations workflows.
 
@@ -8,31 +8,31 @@ Welcome to the **devops-with-github** repository! This repository serves as a th
 
 ### GitHub Actions
 
-1. [**Introduction**](actions/introduction.md)
-2. [**Workflows**](actions/workflows.md)
-3. [**Runners**](actions/runners.md)
-4. [**Matrix Strategy**](actions/matrix_strategy.md)
-5. [**Secrets**](actions/secrets.md)
-6. [**Permissions**](actions/permissions.md)
-7. [**Environments**](actions/environments.md)
-8. [**Concurrency**](actions/concurrency.md)
-9. [**Actions**](actions/actions.md)
-10. [**Reusable Workflows**](actions/reusable_workflows.md)
+1. [**Introduction**](/docs/actions/introduction.md)
+2. [**Workflows**](/docs/actions/workflows.md)
+3. [**Runners**](/docs/actions/runners.md)
+4. [**Matrix Strategy**](/docs/actions/matrix_strategy.md)
+5. [**Secrets**](/docs/actions/secrets.md)
+6. [**Permissions**](/docs/actions/permissions.md)
+7. [**Environments**](/docs/actions/environments.md)
+8. [**Concurrency**](/docs/actions/concurrency.md)
+9. [**Custom Actions**](/docs/actions/custom_/docs/actions.md)
+10. [**Reusable Workflows**](/docs/actions/reusable_workflows.md)
 
 ### GitHub Security
 
-1. [**Dependabot**](security/dependabot.md.md)
-2. [**Code Scanning**](security/code_scanning.md)
-3. [**Secret Scanning**](security/secret_scanning.md)
+1. [**Dependabot**](/docs/security/dependabot.md.md)
+2. [**Code Scanning**](/docs/security/code_scanning.md)
+3. [**Secret Scanning**](/docs/security/secret_scanning.md)
 
 ### GitHub Branches
 
-- [**Protection Rules**](branches/protection_rules.md)
-- [**Deployment Models**](branches/deployment_models.md)
+- [**Protection Rules**](/docs/branches/protection_rules.md)
+- [**Deployment Models**](/docs/branches/deployment_models.md)
 
 ### CODEOWNERS
 
-- [**CODEOWNERS**](codeowners/codeowners.md)
+- [**CODEOWNERS**](/docs/codeowners/codeowners.md)
 
 > **NOTE:** It's advised to read the ordered categories in the order they are presented.
 
