@@ -57,12 +57,12 @@ outputs:
 runs:
     using: 'composite'
     steps:
-    - run: echo "Hello ${{ inputs.who-to-greet }}!"
-      shell: bash
+      - run: echo "Hello ${{ inputs.who-to-greet }}!"
+        shell: bash
     
-    - id: time 
-      run: echo "TIME=$(date)" >> $GITHUB_OUTPUT
-      shell: bash
+      - id: time 
+        run: echo "TIME=$(date)" >> $GITHUB_OUTPUT
+        shell: bash
 ```
 
 We can see that the purpose of the above action is to greet someone and record the time. The action accepts a single input parameter named `who-to-greet`, which has a default value of `World`. The action returns a single output parameter named `time`, which contains the time of the greeting.
