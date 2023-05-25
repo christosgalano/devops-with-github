@@ -21,7 +21,7 @@ Welcome to the **devops-with-github** repository! This repository serves as a th
 
 ### GitHub Security
 
-1. [**Dependabot**](/docs/security/dependabot.md.md)
+1. [**Dependabot**](/docs/security/dependabot.md)
 2. [**Code Scanning**](/docs/security/code_scanning.md)
 3. [**Secret Scanning**](/docs/security/secret_scanning.md)
 
