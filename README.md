@@ -16,7 +16,7 @@ Welcome to the **devops-with-github** repository! This repository serves as a th
 6. [**Permissions**](/docs/actions/permissions.md)
 7. [**Environments**](/docs/actions/environments.md)
 8. [**Concurrency**](/docs/actions/concurrency.md)
-9. [**Custom Actions**](/docs/actions/custom_/docs/actions.md)
+9. [**Custom Actions**](/docs/actions/custom_/docs/custom_actions.md)
 10. [**Reusable Workflows**](/docs/actions/reusable_workflows.md)
 
 ### GitHub Security
