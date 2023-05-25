@@ -79,27 +79,27 @@ Let's take a look at some examples of how to reference an action in your workflo
 
 ```yaml
 steps:
-    # Published actions
+  # Published actions
     
-    ## Referencing major release tag
-    - uses: actions/javascript-action@v1
+  ## Referencing major release tag
+  - uses: actions/javascript-action@v1
 
-    ## Referencing full release tag (MAJOR.MINOR.PATCH)
-    - uses: christosgalano/delete-workflow-runs@v1.0.0
+  ## Referencing full release tag (MAJOR.MINOR.PATCH)
+  - uses: christosgalano/delete-workflow-runs@v1.0.0
 
-    ## Referencing a branch
-    - uses: christosgalano/delete-workflow-runs@main
+  ## Referencing a branch
+  - uses: christosgalano/delete-workflow-runs@main
     
-    ## Referencing a commit's SHA
-    - uses: actions/javascript-action@a824008085750b8e136effc585c3cd6082bd575f
+  ## Referencing a commit's SHA
+  - uses: actions/javascript-action@a824008085750b8e136effc585c3cd6082bd575f
 
-    # Unpublished actions
+  # Unpublished actions
     
-    ## Referencing your own action from the same repository
-    - uses: ./.github/actions/my-action
+  ## Referencing your own action from the same repository
+  - uses: ./.github/actions/my-action
     
-    ## Referencing your own action from a different repository
-    - uses: owner/repo-name/.github/actions/my-action@main
+  ## Referencing your own action from a different repository
+  - uses: owner/repo-name/.github/actions/my-action@main
 ```
 
 ## Example
