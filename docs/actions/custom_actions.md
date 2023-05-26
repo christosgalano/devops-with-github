@@ -28,7 +28,7 @@ JavaScript actions run directly on the runner machine and separate the action co
 
 ### Composite actions
 
-Composite actions allow you to combine multiple workflow steps within a single action. They are useful for bundling commands into a single step and simplifying complex workflows. By creating composite actions, you can improve the readability and maintainability of your workflows. Check out the "Creating a composite action" guide for an example of how to create and use composite actions effectively.
+Composite actions allow you to combine multiple workflow steps within a single action. They are useful for bundling commands into a single step and simplifying complex workflows. By creating composite actions, you can improve the readability and maintainability of your workflows.
 
 ## Metadata syntax
 
@@ -57,12 +57,12 @@ outputs:
 runs:
     using: 'composite'
     steps:
-    - run: echo "Hello ${{ inputs.who-to-greet }}!"
-      shell: bash
+      - run: echo "Hello ${{ inputs.who-to-greet }}!"
+        shell: bash
     
-    - id: time 
-      run: echo "TIME=$(date)" >> $GITHUB_OUTPUT
-      shell: bash
+      - id: time 
+        run: echo "TIME=$(date)" >> $GITHUB_OUTPUT
+        shell: bash
 ```
 
 We can see that the purpose of the above action is to greet someone and record the time. The action accepts a single input parameter named `who-to-greet`, which has a default value of `World`. The action returns a single output parameter named `time`, which contains the time of the greeting.
@@ -79,27 +79,27 @@ Let's take a look at some examples of how to reference an action in your workflo
 
 ```yaml
 steps:
-    # Published actions
+  # Published actions
     
-    ## Referencing major release tag
-    - uses: actions/javascript-action@v1
+  ## Referencing major release tag
+  - uses: actions/javascript-action@v1
 
-    ## Referencing full release tag (MAJOR.MINOR.PATCH)
-    - uses: christosgalano/delete-workflow-runs@v1.0.0
+  ## Referencing full release tag (MAJOR.MINOR.PATCH)
+  - uses: christosgalano/delete-workflow-runs@v1.0.0
 
-    ## Referencing a branch
-    - uses: christosgalano/delete-workflow-runs@main
+  ## Referencing a branch
+  - uses: christosgalano/delete-workflow-runs@main
     
-    ## Referencing a commit's SHA
-    - uses: actions/javascript-action@a824008085750b8e136effc585c3cd6082bd575f
+  ## Referencing a commit's SHA
+  - uses: actions/javascript-action@a824008085750b8e136effc585c3cd6082bd575f
 
-    # Unpublished actions
+  # Unpublished actions
     
-    ## Referencing your own action from the same repository
-    - uses: ./.github/actions/my-action
+  ## Referencing your own action from the same repository
+  - uses: ./.github/actions/my-action
     
-    ## Referencing your own action from a different repository
-    - uses: owner/repo-name/.github/actions/my-action@main
+  ## Referencing your own action from a different repository
+  - uses: owner/repo-name/.github/actions/my-action@main
 ```
 
 ## Example
