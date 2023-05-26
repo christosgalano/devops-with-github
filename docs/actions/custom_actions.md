@@ -194,7 +194,7 @@ jobs:
 
 And here is a possible output of the above workflow:
 
-![delete-workflow-runs](../../assets/images/actions/delete-workflow-runs.png)
+![delete-workflow-runs](/assets//images/actions/delete-workflow-runs.png)
 
 ## Summary
 

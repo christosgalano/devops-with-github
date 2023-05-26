@@ -18,13 +18,13 @@ You can configure Code Scanning to scan your repositories automatically or manua
 
 ## Benefits of using Code Scanning
 
-1. Improves security: Code Scanning helps you find and remediate security vulnerabilities in your codebase, improving the overall security of your applications.
+- **Enhanced security:** Code Scanning helps you find and remediate security vulnerabilities in your codebase, improving the overall security of your applications.
 
-2. Saves time: Code Scanning automates the process of reviewing code for security vulnerabilities, saving you time and allowing you to focus on other critical tasks.
+- **Automation:** Code Scanning automates the process of reviewing code for security vulnerabilities, saving you time and allowing you to focus on other critical tasks.
 
-3. Easy to configure: Code Scanning is easy to configure and integrate into your workflow. You can set it up quickly and start receiving feedback on vulnerabilities in your codebase.
+- **Simple configuration:** Code Scanning is easy to configure and integrate into your workflow. You can set it up quickly and start receiving feedback on vulnerabilities in your codebase.
 
-4. Reduces technical debt: Fixing security vulnerabilities can be costly, and leaving vulnerabilities in your codebase can lead to technical debt. Code Scanning helps you identify and remediate vulnerabilities quickly, reducing technical debt and ensuring the maintainability of your codebase.
+- **Reduction of technical debt:** Fixing security vulnerabilities can be costly, and leaving vulnerabilities in your codebase can lead to technical debt. Code Scanning helps you identify and remediate vulnerabilities quickly, reducing technical debt and ensuring the maintainability of your codebase.
 
 ## Examples
 

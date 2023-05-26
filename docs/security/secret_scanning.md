@@ -20,17 +20,17 @@ You can configure Secret Scanning to scan your repositories automatically or man
 
 ## Benefits of using Secret Scanning
 
-1. **Improves security**: Secret Scanning helps you find and remediate potential secrets in your codebase, improving the overall security of your applications.
+- **Improves security**: Secret Scanning helps you find and remediate potential secrets in your codebase, improving the overall security of your applications.
 
-2. **Saves time**: Secret Scanning automates the process of scanning code for secrets, saving you time and allowing you to focus on other critical tasks.
+- **Saves time**: Secret Scanning automates the process of scanning code for secrets, saving you time and allowing you to focus on other critical tasks.
 
-3. **Easy to configure**: Secret Scanning is easy to configure and integrate into your workflow. You can set it up quickly and start receiving feedback on potential secrets in your codebase.
+- **Easy to configure**: Secret Scanning is easy to configure and integrate into your workflow. You can set it up quickly and start receiving feedback on potential secrets in your codebase.
 
-4. **Reduces technical deb**t: Leaving secrets in your codebase can lead to technical debt and potential security vulnerabilities. Secret Scanning helps you identify and remediate potential secrets quickly, reducing technical debt and ensuring the maintainability of your codebase.
+- **Reduces technical deb**t: Leaving secrets in your codebase can lead to technical debt and potential security vulnerabilities. Secret Scanning helps you identify and remediate potential secrets quickly, reducing technical debt and ensuring the maintainability of your codebase.
 
 ## Example
 
-Let's look at an example of how Secret Scanning works. Suppose you have a repository with a file containing one or more of sensitive values mentioned [here](https://docs.github.com/en/code-security/secret-scanning/secret-scanning-patterns).
+Let's look at an example of how Secret Scanning works. Suppose you have a repository with a file containing one or more of sensitive values mentioned [**here**](https://docs.github.com/en/code-security/secret-scanning/secret-scanning-patterns).
 
 As we mentioned Secret Scanning will scan your repository and identify any potential secrets, creating an alert in your repository. So a possible alert will look like this:
 

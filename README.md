@@ -32,9 +32,10 @@ A comprehensive example of all the concepts presented here can be found in the [
 - [**Protection Rules**](/docs/branches/protection_rules.md)
 - [**Deployment Models**](/docs/branches/deployment_models.md)
 
-### CODEOWNERS
+### Various
 
-- [**CODEOWNERS**](/docs/codeowners/codeowners.md)
+- [**GitHub Packages**](/docs/various/packages.md)
+- [**CODEOWNERS**](/docs/various/codeowners.md)
 
 > **NOTE:** It's advised to read the ordered categories in the order they are presented.
 
