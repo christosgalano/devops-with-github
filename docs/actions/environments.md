@@ -52,7 +52,7 @@ jobs:
         uses: actions/checkout@v3
       - name: Deploy to development
         run: |
-          echo "Deploying to ${{ vars.ENV}} ..."
+          echo "Deploying to ${{ vars.ENV }} ..."
   prod:
     runs-on: ubuntu-latest
     environment: production
@@ -61,7 +61,7 @@ jobs:
         uses: actions/checkout@v3
       - name: Deploy to production
         run: |
-          echo "Deploying to ${{ vars.ENV}} ..."
+          echo "Deploying to ${{ vars.ENV }} ..."
 ```
 
 Here, the workflow is triggered manually. We have two jobs which both check out the code and print a message.

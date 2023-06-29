@@ -26,16 +26,13 @@ A comprehensive example of all the concepts presented here can be found in the [
 1. [**Dependabot**](/docs/security/dependabot.md)
 2. [**Code Scanning**](/docs/security/code_scanning.md)
 3. [**Secret Scanning**](/docs/security/secret_scanning.md)
-
-### GitHub Branches
-
-- [**Protection Rules**](/docs/branches/protection_rules.md)
-- [**Deployment Models**](/docs/branches/deployment_models.md)
+4. [**Branch Protection Rules**](/docs/branches/branch_protection_rules.md)
 
 ### Various
 
 - [**GitHub Packages**](/docs/various/packages.md)
 - [**CODEOWNERS**](/docs/various/codeowners.md)
+- [**Branch Deployment Models**](/docs/various/branch_deployment_models.md)
 
 > **NOTE:** It's advised to read the ordered categories in the order they are presented.
 

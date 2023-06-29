@@ -1,10 +1,10 @@
-# GitHub Branches: Deployment Models
+# Branch Deployment Models
 
 > **Deploy with confidence**
 
 ## Overview
 
-Whether you're a software or devops engineer, you're probably in scenarios where you need to deploy your code on a daily basis. It makes no difference whether the code is infrastructure- or application-related; the necessity to deploy it in a secure and reliable manner is always present. As a result, it is critical to understand the main deployment models accessible to you and select the one that best fits your needs.
+Whether you're a software or devops engineer, you're probably in scenarios where you need to deploy your code on a daily basis. It makes no difference whether the code is infrastructure or application-related; the necessity to deploy it in a secure and reliable manner is always present. As a result, it is critical to understand the main deployment models accessible to you and select the one that best fits your needs.
 
 ## Merge deploy model
 
@@ -17,7 +17,7 @@ The classic merge deploy model consists of the following steps:
 5. Merge the pull request into the main branch
 6. Deploy the main branch
 
-![merge-deploy-model](/assets/images/branches/merge-deploy-model.jpeg)
+![merge-deploy-model](/assets/images/various/merge-deploy-model.jpeg)
 
 ## Branch deploy model
 
@@ -31,7 +31,7 @@ The branch deploy model consists of the following steps:
 6. Check whether the deployed changes are acceptable
 7. Merge the pull request into the main branch
 
-![branch-deploy-model](/assets/images/branches/branch-deploy-model.jpeg)
+![branch-deploy-model](/assets/images/various/branch-deploy-model.jpeg)
 
 ## Comparison
 

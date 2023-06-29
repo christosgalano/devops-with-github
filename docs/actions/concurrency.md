@@ -4,7 +4,7 @@
 
 ## Overview
 
-As a developer or engineer, you understand the importance of managing concurrency in your workflow to optimize your development process and improve the efficiency and speed of your code. GitHub Actions provides a powerful workflow automation system that allows you to run multiple jobs and workflows simultaneously. However, managing concurrency in GitHub Actions can be a complex task, and it's essential to understand the best practices for optimizing your workflow.
+As an engineer, you understand the importance of managing concurrency in your workflow to optimize your development process and improve the efficiency and speed of your code. GitHub Actions provides a powerful workflow automation system that allows you to run multiple jobs and workflows simultaneously. However, managing concurrency in GitHub Actions can be a complex task, and it's essential to understand the best practices for optimizing your workflow.
 
 ## The concurrency keyword
 
