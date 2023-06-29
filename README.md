@@ -26,7 +26,7 @@ A comprehensive example of all the concepts presented here can be found in the [
 1. [**Dependabot**](/docs/security/dependabot.md)
 2. [**Code Scanning**](/docs/security/code_scanning.md)
 3. [**Secret Scanning**](/docs/security/secret_scanning.md)
-4. [**Branch Protection Rules**](/docs/branches/branch_protection_rules.md)
+4. [**Branch Protection Rules**](/docs/security/branch_protection_rules.md)
 
 ### Various
 
