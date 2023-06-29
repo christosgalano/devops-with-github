@@ -56,3 +56,4 @@ The branch deploy model is a more reliable and secure deployment model than the 
 ## References
 
 - [**Enabling branch deployments through IssueOps with GitHub Actions**](https://github.blog/2023-02-02-enabling-branch-deployments-through-issueops-with-github-actions/)
+- [**terraform-template-repo**](https://github.com/christosgalano/terraform-template-repo)
