@@ -83,3 +83,7 @@ In summary. the `concurrency` keyword can be used to make sure that only one job
 ## References
 
 - [**Using concurrency**](https://docs.github.com/en/actions/using-jobs/using-concurrency)
+
+## Next
+
+- [**Custom Actions**](./custom_actions.md)

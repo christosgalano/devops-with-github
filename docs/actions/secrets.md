@@ -64,3 +64,7 @@ sensitive information is protected. Whether you're deploying code to servers or 
 ## References
 
 - [**Encrypted secrets**](https://docs.github.com/en/actions/security-guides/encrypted-secrets)
+
+## Next
+
+- [**Permissions**](./permissions.md)

@@ -90,3 +90,7 @@ The matrix strategy in GitHub Actions is a powerful feature that can help you op
 ## References
 
 - [**Using a matrix for your jobs**](https://docs.github.com/en/actions/using-jobs/using-a-matrix-for-your-jobs)
+
+## Next
+
+- [**Secrets**](./secrets.md)

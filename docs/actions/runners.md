@@ -80,3 +80,7 @@ In summary, GitHub Actions runners are an essential component of a GitHub Action
 
 - [**About GitHub-hosted runners**](https://docs.github.com/en/actions/using-github-hosted-runners/about-github-hosted-runners)
 - [**About self-hosted runners**](https://docs.github.com/en/actions/hosting-your-own-runners/about-self-hosted-runners)
+
+## Next
+
+- [**Matrix strategy**](./matrix_strategy.md)

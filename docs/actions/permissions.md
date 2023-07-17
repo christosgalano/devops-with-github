@@ -104,3 +104,7 @@ In summary, the combination of `GITHUB_TOKEN` and `permissions` is a powerful to
 
 - [**Assigning permissions to jobs**](https://docs.github.com/en/actions/using-jobs/assigning-permissions-to-jobs)
 - [**Authentication in a workflow**](https://docs.github.com/en/actions/reference/authentication-in-a-workflow)
+
+## Next
+
+- [**Environments**](./environments.md)

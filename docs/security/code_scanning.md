@@ -80,3 +80,7 @@ GitHub Code Scanning is an essential tool for any engineer concerned with the se
 - [**GitHub Code Scanning**](https://docs.github.com/en/code-security/code-scanning)
 - [**CodeQL**](https://securitylab.github.com/tools/codeql)
 - [**CodeQL Action**](https://github.com/github/codeql-action)
+
+## Next
+
+- [**Secret Scanning**](./secret_scanning.md)

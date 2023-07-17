@@ -65,3 +65,7 @@ Keeping your dependencies up-to-date is critical for maintaining the security an
 ## References
 
 - [**GitHub Dependabot**](https://docs.github.com/en/code-security/supply-chain-security/keeping-your-dependencies-updated-automatically/about-dependabot-version-updates)
+
+## Next
+
+- [**Code Scanning**](./code_scanning.md)

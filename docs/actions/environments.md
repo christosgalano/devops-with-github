@@ -81,3 +81,7 @@ GitHub environments are a powerful feature that can help streamline your develop
 ## References
 
 - [**Using environments for deployment**](https://docs.github.com/en/actions/deployment/targeting-different-environments/using-environments-for-deployment)
+
+## Next
+
+- [**Concurrency**](./concurrency.md)
