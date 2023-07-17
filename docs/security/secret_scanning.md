@@ -45,3 +45,7 @@ GitHub Secret Scanning is an essential tool for any developer concerned with the
 ## References
 
 - [**GitHub Secret Scanning**](https://docs.github.com/en/code-security/secret-scanning)
+
+## Next
+
+- [**Branch Protection Rules**](./branch_protection_rules.md)
