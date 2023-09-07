@@ -74,20 +74,20 @@ jobs:
   job-1:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - run: |
           echo "Test Job 1"
   job-2:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - run: |
           echo "Test Job 2"
   job-3:
     runs-on: ubuntu-latest
     permissions: {} # applies to only this job, overrides the workflow-scoped value
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - run: |
           echo "Test Job 3"
 ```

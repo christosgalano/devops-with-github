@@ -32,7 +32,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
     - name: Build
       run: make build
     - name: Deploy
@@ -112,7 +112,7 @@ Here's an example of a step that runs a command, sets an environment variable, a
 ```yaml
 steps:
   - name: Checkout
-    uses: actions/checkout@v3
+    uses: actions/checkout@v4
 
   - name: Set environment variable
     env:

@@ -49,7 +49,7 @@ jobs:
     environment: development
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Deploy to development
         run: |
           echo "Deploying to ${{ vars.ENV }} ..."
@@ -58,7 +58,7 @@ jobs:
     environment: production
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Deploy to production
         run: |
           echo "Deploying to ${{ vars.ENV }} ..."
