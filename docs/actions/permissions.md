@@ -4,7 +4,7 @@
 
 ## Overview
 
-One of the key features of GitHub Actions is the ability to authenticate and authorize actions using GitHub Tokens, such as the GITHUB_TOKEN. Additionally, GitHub Actions also allows repository owners to fine-tune the access that workflow jobs have using the `permissions` keyword. In this blog post, we will take a detailed look at how someone can have granular control over the actions that their workflows take.
+One of the key features of GitHub Actions is the ability to authenticate and authorize actions using GitHub Tokens, such as the GITHUB_TOKEN. Additionally, GitHub Actions also allows repository owners to fine-tune the access that workflow jobs have using the `permissions` keyword. In this blog post, we will take a detailed look at how someone can have granular control over the actions that their workflows take.
 
 ## GITHUB_TOKEN
 

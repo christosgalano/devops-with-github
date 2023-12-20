@@ -38,7 +38,7 @@ Using a GitHub Actions strategy and matrix is a straightforward process. Here ar
 
 1. Define your matrix: Before you can create a matrix, you need to define the configurations that you want to test. This can involve specifying things like different versions of a programming language, different platforms, or different parameters.
 
-2. Create your matrix: Once you have defined your matrix, you can create it in your workflow file. You can specify the matrix in the “strategy” section of your workflow file.
+2. Create your matrix: Once you have defined your matrix, you can create it in your workflow file. You can specify the matrix in the `strategy` section of your workflow file.
 
 3. Run your workflow: Once your strategy and matrix are defined, you can run your workflow. GitHub Actions will automatically execute your workflow according to your strategy and matrix, running your job with each configuration in the matrix.
 
@@ -85,7 +85,7 @@ Finally, we do not want all of the remaining jobs to be cancelled if a matrix-jo
 
 ## Summary
 
-The matrix strategy in GitHub Actions is a powerful feature that can help you optimize your CI/CD pipeline. By defining a matrix, you can test your code with multiple configurations, increasing coverage and reducing the risk of errors. It’s also a great way to automate testing on different configurations, saving you time and effort. If you’re not already using the matrix strategy, give it a try and see how it can improve your CI.
+The matrix strategy in GitHub Actions is a powerful feature that can help you optimize your CI/CD pipeline. By defining a matrix, you can test your code with multiple configurations, increasing coverage and reducing the risk of errors. It's also a great way to automate testing on different configurations, saving you time and effort. If you're not already using the matrix strategy, give it a try and see how it can improve your CI.
 
 ## References
 

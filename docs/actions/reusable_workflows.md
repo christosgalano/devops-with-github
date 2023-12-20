@@ -10,7 +10,7 @@ Reusable workflows are a way to define a workflow once and reuse it across multi
 
 A workflow that uses another workflow is referred to as a "caller" workflow. The reusable workflow is a "called" workflow.
 
-Any actions in the called workflow run as though they were a part of the caller workflow when you reuse a workflow from a different repository. For instance, if the called workflow uses `actions/checkout`, the action checks out the contents of the repository that hosts the caller workflow, not the called workflow. This is because the called workflow is a part of the caller workflow.
+Any actions in the called workflow run as though they were a part of the caller workflow when you reuse a workflow from a different repository. For instance, if the called workflow uses `actions/checkout`, the action checks out the contents of the repository that hosts the caller workflow, not the called workflow. This is because the called workflow is a part of the caller workflow.
 
 When a reusable workflow is triggered by a caller workflow, the github context is always associated with the caller workflow. For example, if the caller workflow is triggered by a pull request, the github context is associated with the pull request, not the called workflow.
 
@@ -28,12 +28,12 @@ To create a reusable workflow, you need to define a workflow in a repository and
 
 In order for a workflow to be reusable it needs to contain the [`workflow_call`](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions#jobsjob_idstrategymatrixincludeuses) trigger.
 
-You can reference a workflow from another repository by using the `uses` keyword in your workflow file. There are two main syntaxes:
+You can reference a workflow from another repository by using the `uses`k eyword in your workflow file. There are two main syntaxes:
 
 - `{owner}/{repo}/.github/workflows/{filename}@{ref}` for reusable workflows in public and private repositories
 - `./.github/workflows/{filename}` for reusable workflows in the same repository
 
-For example, if you want to reference a workflow called `test.yaml` from:
+For example, if you want to reference a workflow called `test.yaml` from:
 
 - the same repository, you would use the following syntax: `uses: ./.github/workflows/test.yaml`
 - a different repository, you would use the following syntax: `uses: some-repo/.github/workflows/test.yaml@main`

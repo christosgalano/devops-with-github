@@ -8,7 +8,7 @@ Deploying your application or infrastructure to different environments is a cruc
 
 ## What are GitHub Environments?
 
-GitHub environments are a feature that allows you to create multiple “environments” for your code, such as development, staging, and production. Each environment is a separate instance of your code, with its own settings and configurations. This allows you to test and deploy your code in a controlled and reproducible way.
+GitHub environments are a feature that allows you to create multiple "environments" for your code, such as development, staging, and production. Each environment is a separate instance of your code, with its own settings and configurations. This allows you to test and deploy your code in a controlled and reproducible way.
 
 ## Why use GitHub Environments?
 
@@ -26,7 +26,7 @@ Setting up GitHub environments is a straightforward process. Here are the steps 
 
 1. Define your environments: Before you create your environments, you need to define what environments you will use. Common environments include development, staging, and production.
 
-2. Create your environments: Once you have defined your environments, you can create them in GitHub. To create an environment, go to the “Environments” tab in your repository, and click “New environment”.
+2. Create your environments: Once you have defined your environments, you can create them in GitHub. To create an environment, go to the "Environments" tab in your repository, and click "New environment".
 
 3. Set up your environment: Once you have created your environment, you can configure it with the settings and configurations that you need like variables and secrets scoped specifically to this environment.
 

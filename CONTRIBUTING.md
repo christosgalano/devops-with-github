@@ -1,10 +1,10 @@
 # Contributing to the devops-with-github repository
 
-Thank you for considering contributing to the devops-with-github repository! We welcome your input and appreciate your efforts to improve this resource. To ensure a smooth and collaborative experience, please review the guidelines below before making any contributions.
+Thank you for considering contributing to the **devops-with-github** repository! We welcome your input and appreciate your efforts to improve this resource. To ensure a smooth and collaborative experience, please review the guidelines below before making any contributions.
 
 ## Ways to Contribute
 
-There are several ways you can contribute to the devops-with-github repository:
+There are several ways you can contribute to this repository:
 
 - **Feedback:** Share your thoughts, suggestions, or bug reports by opening an issue in the repository. We value your feedback and will carefully consider any ideas that can enhance the template.
 

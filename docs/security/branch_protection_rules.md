@@ -4,7 +4,7 @@
 
 ## Overview
 
-As an engineer, you understand the critical role of cooperation and code quality. However, ensuring efficient teamwork and maintaining a high standard of code can be challenging without the right tools. This is where GitHub’s Branch Protection Rules come into play. By leveraging this powerful feature, you can enforce best practices, streamline your development process, and foster a culture of collaboration.
+As an engineer, you understand the critical role of cooperation and code quality. However, ensuring efficient teamwork and maintaining a high standard of code can be challenging without the right tools. This is where GitHub's Branch Protection Rules come into play. By leveraging this powerful feature, you can enforce best practices, streamline your development process, and foster a culture of collaboration.
 
 ## What are Branch Protection Rules?
 
