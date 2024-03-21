@@ -1,6 +1,5 @@
-# This workflows deletes the runs of all the workflows in a repository.
 name: delete-workflow-runs
-run-name: ${{ github.workflow }}
+
 on:
   workflow_dispatch:
     inputs:
@@ -24,7 +23,7 @@ jobs:
           repo: ${{ inputs.repo_name }}
           token: ${{ secrets.WORKFLOWS_MANAGER_PAT }}
           workflow: ${{ inputs.workflow_name }}
-  
+
   delete-all-workflow-runs:
     if: inputs.workflow_name == ''
     runs-on: ubuntu-latest
