@@ -30,6 +30,7 @@ A comprehensive example of all the concepts presented here can be found in the [
 
 ### Various
 
+- [**GitHub Models**](/docs/various/models.md)
 - [**GitHub Packages**](/docs/various/packages.md)
 - [**CODEOWNERS**](/docs/various/codeowners.md)
 - [**Branch Deployment Models**](/docs/various/branch_deployment_models.md)
